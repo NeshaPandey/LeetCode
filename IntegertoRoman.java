@@ -1,4 +1,5 @@
-class Solution {
+import java.util.TreeMap;
+class IntegertoRoman{
     public String intToRoman(int num) {
         TreeMap<Integer, String> romanMap = new TreeMap<>();
         romanMap.put(1, "I");

@@ -1,4 +1,5 @@
-class Solution {
+import java.util.*;
+public class GroupAnagram{
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> anagramMap = new HashMap<>();
 

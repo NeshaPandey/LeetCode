@@ -1,4 +1,4 @@
-public class Solution {
+public class PalindromeNumber {
     public static boolean isPalindrome(int num) {
         int originalNum = num;
         int reversedNum = 0;
