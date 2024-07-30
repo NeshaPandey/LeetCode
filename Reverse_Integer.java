@@ -3,11 +3,11 @@ public class Reverse_Integer {
         try{
             if (x > 0){
                 StringBuilder result = new StringBuilder(String.valueOf(x)).reverse();
-                int res=Integer.parseInt(result.toString());
+                int res = Integer.parseInt(result.toString());
                 return res;
             }
             StringBuilder result = new StringBuilder(String.valueOf(x)).reverse();
-            int res=Integer.parseInt(result.toString());
+            int res = Integer.parseInt(result.toString());
             return 0 - res;
         }
         catch(NumberFormatException e){
