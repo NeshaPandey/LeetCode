@@ -1,3 +1,5 @@
+//LeetCode: https://leetcode.com/problems/range-sum-of-sorted-subarray-sums/?envType=daily-question&envId=2024-08-04
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -5,9 +7,8 @@ import java.util.List;
 public class RangeSum {
     public static int rangeSum(int[] nums, int n, int left, int right) {
         int MOD = 1_000_000_007;
-        
         // Generate all subarray sums
-        List<Integer> subarraySums = new ArrayList<>();
+        List<Integer> subarraySums = new ArrayList <>();
         for (int i = 0; i < n; i++) {
             int currentSum = 0;
             for (int j = i; j < n; j++) {
