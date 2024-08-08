@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Collections;
+
 class MinPushes {
     public int minimumPushes(String word) {
         int[] letterFrequency = new int[26];

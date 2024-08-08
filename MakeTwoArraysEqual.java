@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class MakeTwoArraysEqual {
     public boolean canBeEqual(int[] target, int[] arr) {
         if( target.length != arr.length){
