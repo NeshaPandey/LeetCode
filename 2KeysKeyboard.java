@@ -1,7 +1,7 @@
 class 2KeysKeyboard{
     public int minSteps(int targetCount) {
         if (targetCount == 1) return 0;
-        int[] minOperations = new int[targetCount + 1];
+        int[] minOperations = new int[targetCount + 1 ];
         Arrays.fill(minOperations, Integer.MAX_VALUE);
         minOperations[1] = 0;
         
