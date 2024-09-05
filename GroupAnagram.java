@@ -6,7 +6,7 @@ public class GroupAnagram{
         for (String str : strs) {
             char[] charArray = str.toCharArray();
             Arrays.sort(charArray);
-            String sortedStr = new String(charArray);
+            String sortedStr =  new String(charArray);
 
             if (!anagramMap.containsKey(sortedStr)) {
                 anagramMap.put(sortedStr, new ArrayList<>());
